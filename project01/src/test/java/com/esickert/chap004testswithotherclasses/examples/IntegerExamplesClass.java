@@ -36,16 +36,16 @@ public class IntegerExamplesClass {
 
 
     @Test
-    public void TestSelenium() {
+    public void TestSelenium() throws Exception {
 // NOTE: this doesn't close the Webpage
 //      for(int i = 1; i <= 10; i++) {
           WebDriver driver = new FirefoxDriver();
-          driver.get("http://www.yahoo.com");
-         try {
+          driver.get("http://www.bing.com");
+//         try {
             sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
           driver.quit();
 //      }//end of for loop
      } //end of TestSelenium
