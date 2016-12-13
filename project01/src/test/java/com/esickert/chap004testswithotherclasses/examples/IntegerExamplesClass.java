@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import static java.lang.Thread.sleep;
 import static junit.framework.TestCase.assertEquals;
+import static junit.framework.TestCase.assertTrue;
 
 /**
  * Created by esickert on 12/5/2016.
@@ -36,7 +37,7 @@ public class IntegerExamplesClass {
 
 
     @Test
-    public void TestSelenium() throws Exception {
+    public void testSelenium() throws Exception {
 // NOTE: this doesn't close the Webpage
 //      for(int i = 1; i <= 10; i++) {
           WebDriver driver = new FirefoxDriver();
@@ -49,6 +50,18 @@ public class IntegerExamplesClass {
           driver.quit();
 //      }//end of for loop
      } //end of TestSelenium
+
+    @Test
+    public void testEqualsTo() throws Exception {
+        Integer four1 = new Integer(4);
+        Integer four2 = new Integer(4);
+        int four3 = 4;
+
+        assertTrue("compare class to class",four1.equals(four2));
+        assertEquals("These are ints",four1, four2);
+        System.out.println(four1);
+        }
+
 
 
 
