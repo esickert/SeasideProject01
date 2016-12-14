@@ -1,5 +1,4 @@
 package com.esickert.chap004testswithotherclasses.examples;
-
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -7,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import static java.lang.Thread.sleep;
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
+//import static junit.framework.TestCase.softAsserts;
 
 /**
  * Created by esickert on 12/5/2016.
@@ -60,6 +60,9 @@ public class IntegerExamplesClass {
         assertTrue("compare class to class",four1.equals(four2));
         assertEquals("These are ints",four1, four2);
         System.out.println(four1);
+
+//        SoftAssertions softly = new SoftAssertions();
+
         }
 
 
