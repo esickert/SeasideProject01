@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0950475-c267-4b4d-b8d3-dea91228b85a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/esickert/chap003firsttest/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/esickert/chap003firsttest/FirstTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/FirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/FirstTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +25,7 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="595">
               <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding />
             </state>
@@ -35,7 +35,7 @@
       <file leaf-file-name="AnotherTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/AnotherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="136">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
@@ -45,14 +45,21 @@
       <file leaf-file-name="IntegerExamplesClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap004testswithotherclasses/examples/IntegerExamplesClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            <state relative-caret-position="100">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -74,14 +81,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/AnotherTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap004testswithotherclasses/examples/IntegerExamplesClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap005tetwithourownclasses/domainobject/examples/TestAppEnviromentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap005testwithourownclasses/domainobject/examples/TestAppEnviromentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="20" />
-    <option name="width" value="1318" />
-    <option name="height" value="690" />
+    <option name="x" value="15" />
+    <option name="y" value="6" />
+    <option name="width" value="1332" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -99,7 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,8 +178,22 @@
               <option name="myItemId" value="esickert" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chap003firsttest" />
+              <option name="myItemId" value="project01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,16 +210,28 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.esickert.domainobject" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.FirstTest">
     <configuration default="false" name="IntegerExamplesClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -223,18 +260,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="AnotherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestAppEnviromentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.esickert.chap003firsttest.*" />
+          <option name="PATTERN" value="com.esickert.chap005tetwithourownclasses.domainobject.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="project01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.esickert.chap003firsttest" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.chap003firsttest.AnotherTest" />
+      <option name="PACKAGE_NAME" value="com.esickert.chap005tetwithourownclasses.domainobject.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.chap005tetwithourownclasses.domainobject.examples.TestAppEnviromentTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -249,20 +286,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="IntegerExamplesClass.TestSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestAppEnviromentTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.esickert.chap004testswithotherclasses.examples.*" />
+          <option name="PATTERN" value="com.esickert.chap005testwithourownclasses.domainobject.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="project01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.esickert.chap004testswithotherclasses.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.chap004testswithotherclasses.examples.IntegerExamplesClass" />
-      <option name="METHOD_NAME" value="TestSelenium" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.esickert.chap005testwithourownclasses.domainobject.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.esickert.chap005testwithourownclasses.domainobject.examples.TestAppEnviromentTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -275,20 +312,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="IntegerExamplesClass.testEqualsTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="com.esickert.chap005tetwithourownclasses.domainobject in project01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.esickert.chap004testswithotherclasses.examples.*" />
+          <option name="PATTERN" value="com.esickert.chap005tetwithourownclasses.domainobject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="project01" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.esickert.chap004testswithotherclasses.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.esickert.chap004testswithotherclasses.examples.IntegerExamplesClass" />
-      <option name="METHOD_NAME" value="testEqualsTo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.esickert.chap005tetwithourownclasses.domainobject" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -533,18 +570,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.IntegerExamplesClass" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AnotherTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.IntegerExamplesClass.TestSelenium" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.IntegerExamplesClass.testEqualsTo" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestAppEnviromentTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestAppEnviromentTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.com.esickert.chap005tetwithourownclasses.domainobject in project01" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AnotherTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.IntegerExamplesClass.testEqualsTo" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.IntegerExamplesClass.TestSelenium" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.IntegerExamplesClass" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IntegerExamplesClass" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.com.esickert.chap005tetwithourownclasses.domainobject in project01" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestAppEnviromentTest (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestAppEnviromentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -587,53 +624,60 @@
       <option name="project" value="LOCAL" />
       <updated>1481766188852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="more">
+      <created>1481852257185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1481852257185</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnotherTest - 2016.12.15 at 17h 34m 45s.xml">
-      <configuration name="AnotherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstTest - 2016.12.15 at 17h 36m 05s.xml">
+    <history-entry file="FirstTest - 2016.12.16 at 17h 44m 51s.xml">
       <configuration name="FirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerExamplesClass_testEqualsTo - 2016.12.12 at 17h 45m 07s.xml">
-      <configuration name="IntegerExamplesClass.testEqualsTo" configurationId="JUnit" />
+    <history-entry file="IntegerExamplesClass - 2016.12.16 at 17h 43m 45s.xml">
+      <configuration name="IntegerExamplesClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerExamplesClass_testEqualsTo - 2016.12.12 at 17h 49m 59s.xml">
-      <configuration name="IntegerExamplesClass.testEqualsTo" configurationId="JUnit" />
+    <history-entry file="IntegerExamplesClass - 2016.12.16 at 17h 44m 15s.xml">
+      <configuration name="IntegerExamplesClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerExamplesClass_testEqualsTo - 2016.12.12 at 17h 50m 44s.xml">
-      <configuration name="IntegerExamplesClass.testEqualsTo" configurationId="JUnit" />
+    <history-entry file="TestAppEnviromentTest - 2016.12.16 at 16h 56m 14s.xml">
+      <configuration name="TestAppEnviromentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerExamplesClass_testEqualsTo - 2016.12.12 at 17h 51m 20s.xml">
-      <configuration name="IntegerExamplesClass.testEqualsTo" configurationId="JUnit" />
+    <history-entry file="TestAppEnviromentTest - 2016.12.16 at 16h 59m 18s.xml">
+      <configuration name="TestAppEnviromentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerExamplesClass_testEqualsTo - 2016.12.12 at 17h 55m 59s.xml">
-      <configuration name="IntegerExamplesClass.testEqualsTo" configurationId="JUnit" />
+    <history-entry file="TestAppEnviromentTest - 2016.12.16 at 17h 04m 34s.xml">
+      <configuration name="TestAppEnviromentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerExamplesClass_testEqualsTo - 2016.12.12 at 18h 15m 29s.xml">
-      <configuration name="IntegerExamplesClass.testEqualsTo" configurationId="JUnit" />
+    <history-entry file="TestAppEnviromentTest - 2016.12.16 at 17h 21m 26s.xml">
+      <configuration name="TestAppEnviromentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerExamplesClass_testEqualsTo - 2016.12.14 at 14h 02m 26s.xml">
-      <configuration name="IntegerExamplesClass.testEqualsTo" configurationId="JUnit" />
+    <history-entry file="TestAppEnviromentTest_(1) - 2016.12.16 at 17h 42m 05s.xml">
+      <configuration name="TestAppEnviromentTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegerExamplesClass_testEqualsTo - 2016.12.15 at 17h 31m 39s.xml">
-      <configuration name="IntegerExamplesClass.testEqualsTo" configurationId="JUnit" />
+    <history-entry file="TestAppEnviromentTest_canGetUrlStatically - 2016.12.16 at 16h 56m 33s.xml">
+      <configuration name="TestAppEnviromentTest.canGetUrlStatically" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_esickert_chap005tetwithourownclasses_domainobject_in_project01 - 2016.12.16 at 17h 43m 04s.xml">
+      <configuration name="com.esickert.chap005tetwithourownclasses.domainobject in project01" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="20" width="1318" height="690" extended-state="0" />
+    <frame x="15" y="6" width="1332" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32844037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" x="54" y="275" width="1268" height="179" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40183488" sideWeight="0.5031546" order="7" side_tool="true" content_ui="tabs" x="54" y="275" width="1268" height="179" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="FLOATING" visible="true" show_stripe_button="true" weight="0.3082569" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-1346" y="483" width="1268" height="168" />
@@ -641,13 +685,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24605678" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3697348" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38286713" sideWeight="0.49684542" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -673,6 +717,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/AnotherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap004testswithotherclasses/examples/IntegerExamplesClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -824,25 +892,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap004testswithotherclasses/examples/IntegerExamplesClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/AnotherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/AnotherTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap005testwithourownclasses/domainobject/examples/TestAppEnviromentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap004testswithotherclasses/examples/IntegerExamplesClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="595">
           <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding />
         </state>
