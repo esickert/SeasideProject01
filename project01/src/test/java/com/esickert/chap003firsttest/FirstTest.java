@@ -33,7 +33,7 @@ public class FirstTest {
     @Test    //remember that @Test is part of the method. compiler flag??
      public void TestSelenium() throws Exception {    //note "exception" is capitalized
         WebDriver test = new FirefoxDriver();
-        test.get("http://www.yahoo.com");
+        test.get("http://www.google.com");
         sleep(5000);
         test.quit();
     } // end of selenium test
