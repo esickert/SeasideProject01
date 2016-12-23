@@ -15,14 +15,14 @@ public class IntegerExamplesClass {
 
     @Test
     public void integerExploration()    {
-     Integer six = new Integer(6);
+     Integer six = 6;
      assertEquals("intValue returns int 6",6, six.intValue());
 
      Integer five = new Integer("6");  //s: is string
      assertEquals("intValue returns int 5", 6, five.intValue());
 
      Integer four = 4;  //Integer is a class, not a primitive. Don't understand!!!!!!!!!!!
-     assertEquals("autoboxing assignmaent for 4.'new' not needed",4, four.intValue());
+     assertEquals("autoboxing assignmaent for 4.'new' not needed with Integer",4, four.intValue());
 //***********************************************************************************************
         //this is the assignment for chapter 4
      assertEquals("converting 11 to hex", "b", Integer.toHexString(11));
@@ -33,6 +33,12 @@ public class IntegerExamplesClass {
      assertEquals("convert 3 to hex", "3", Integer.toHexString(3));
 
      assertEquals("convert 21 to hex", "15", Integer.toHexString(21));
+
+     System.out.println("Integer min value is " + Integer.MIN_VALUE);
+     System.out.println("Integer max value is " + Integer.MAX_VALUE);
+
+     assertEquals("Integer MNI_VALUE equals -2147483648",-2147483648, Integer.MIN_VALUE);
+     assertEquals("Integer MAX_VALUE equals 2147483648",2147483647, Integer.MAX_VALUE);
     }
 
 
