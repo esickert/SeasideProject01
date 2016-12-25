@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0950475-c267-4b4d-b8d3-dea91228b85a" name="Default" comment="more">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/esickert/chap003firsttest/FirstTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/esickert/chap003firsttest/FirstTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/esickert/chap004testswithotherclasses/examples/IntegerExamplesClass.class" afterPath="$PROJECT_DIR$/target/test-classes/com/esickert/chap004testswithotherclasses/examples/IntegerExamplesClass.class" />
+    <list default="true" id="c0950475-c267-4b4d-b8d3-dea91228b85a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java" afterPath="$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/esickert/chap005testwithourownclasses/domainobject/examples/TestAppEnviromentTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/esickert/chap005testwithourownclasses/domainobject/examples/TestAppEnviromentTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAppEnviromentTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestAppEnviromentTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap005testwithourownclasses/domainobject/examples/TestAppEnviromentTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -68,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAppEnv.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestAppEnv.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -108,8 +104,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap005tetwithourownclasses/domainobject/examples/TestAppEnviromentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap003firsttest/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap004testswithotherclasses/examples/IntegerExamplesClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/esickert/chap005testwithourownclasses/domainobject/examples/TestAppEnviromentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java" />
       </list>
     </option>
   </component>
@@ -745,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482625786324</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="more">
+      <created>1482700941924</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1482700941924</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1270,18 +1273,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="68" lean-forward="false" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/esickert/chap005testwithourownclasses/domainobject/examples/TestAppEnviromentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="98" lean-forward="false" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/esickert/domainobject/TestAppEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
